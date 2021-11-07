@@ -1,3 +1,6 @@
+# build markdown
+*.html
+
 # Compiled class file
 *.class
 

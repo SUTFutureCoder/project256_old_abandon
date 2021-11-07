@@ -16,5 +16,9 @@
 
 我只想安安静静地用无聊的技术去构建有趣的功能，仅此而已。
 
+----
+
+本文档使用Github Actions自动构建部署
+
 [![GitHub-Mark-32px](./res/GitHub-Mark-32px.png)](https://github.com/SUTFutureCoder/project256)
 
