@@ -18,7 +18,7 @@
 
 ----
 
-本文档使用Github Actions自动构建部署
+本文档使用[Github Actions](https://github.com/SUTFutureCoder/project256/blob/main/.github/workflows/main.yml)自动部署构建
 
 [![GitHub-Mark-32px](./res/GitHub-Mark-32px.png)](https://github.com/SUTFutureCoder/project256)
 
