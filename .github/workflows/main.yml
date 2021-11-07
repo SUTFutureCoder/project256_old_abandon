@@ -36,15 +36,15 @@ jobs:
           SERVER_IP: ${{ secrets.SSH_HOST }}
           USERNAME: ${{ secrets.SSH_USERNAME }}
           SERVER_DESTINATION: /data/wwwroot/project256.com
-	   
+       
       # Build doc
       - name: Build Doc
-		uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
-		  host: ${{ secrets.SSH_HOST }}
-		  username: ${{ secrets.SSH_USERNAME }}
-		  key: ${{  secrets.DEPLOY_KEY  }}
-		  script: |
-			cd /data/wwwroot/project256.com
-			pandoc -s -f gfm -t html5 --css res/markdownpad-github.css README.md -o index.html
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{  secrets.DEPLOY_KEY  }}
+          script: |
+            cd /data/wwwroot/project256.com
+            pandoc -s -f gfm -t html5 --css res/markdownpad-github.css README.md -o index.html
 
